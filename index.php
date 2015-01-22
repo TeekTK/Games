@@ -39,8 +39,10 @@
 			switch($i)
 			{
 				case 3:
-					echo 'I am number three';
 					$i++;
+					continue;
+					echo 'I am number  three <br/>';
+					
 
 				default:
 					echo $i++;
